@@ -1,0 +1,55 @@
+#createAccount {
+  padding: 20px 20px;
+  border-bottom: solid thin #ccc;
+  margin-bottom:20px;
+
+  &.disabled {
+    display: none;
+  }
+}
+
+#shiptimizeAccountForm {
+  margin-bottom: 20px;
+}
+
+.shiptimize {
+  
+  &__table {
+    padding: 10px 20px;
+    & .row {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  &__table_td {
+    width:100px;
+    padding: 0 5px;
+    border-bottom: dotted thin black;
+  }
+}
+
+.shiptimizeNotATable {
+  & div {
+    margin-bottom: 2px;
+  }
+
+  & .label {
+    display: inline-block;
+    width: 200px;
+  }
+
+  & .value {
+    display: inline-block;
+    width: 400px;
+  }
+
+  & input[type='text'] {
+    width: 100%; 
+  }
+
+  & input[type='submit'] { 
+    margin-top: 10px;
+    margin-left: 200px;
+  }
+}
